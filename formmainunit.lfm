@@ -1,0 +1,22 @@
+object frmMain: TfrmMain
+  Left = 1359
+  Height = 442
+  Top = 626
+  Width = 562
+  Caption = 'TinyTodo'
+  ClientHeight = 442
+  ClientWidth = 562
+  DesignTimePPI = 192
+  Position = poScreenCenter
+  LCLVersion = '4.8.0.0'
+  object tvwTasks: TTreeView
+    Left = 0
+    Height = 442
+    Top = 0
+    Width = 562
+    Align = alClient
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    TreeLinePenStyle = psDot
+  end
+end
